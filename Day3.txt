@@ -1,0 +1,52 @@
+1)The various methods of console in javascript are
+->console.log()=It prints the statement in the debug console(directly browser)
+->console.error()=It displays the error message in the console window
+->console.warn()=It shows the warning message in the console window
+->console.clear()=It will clear all the statements whix=ch was previously shown
+->console.timeEnd()=It will display the content for specific time and shows how much time it takes to complete
+->console.table()=The content which we entered is displays in the form of table as rows and columns
+>console.count()=It will execute the statement until which we specified in the range
+
+
+
+
+2)D/W var,let and const
+->Var=The JavaScript variables statement is used to declare a variable and, optionally, we can initialize the value of that variable
+var val=12;
+eg:-
+  var a =10;
+  console.log(a); 
+  if(true){
+   var a=20;
+   console.log(a);
+  }
+
+->Let=The let statement declares a local variable in a block scope. It is similar to var, in that we can optionally initialize the variable.
+
+let val=10;
+eg:-
+  let a =10;
+  console.log(a);  
+  if(true){
+   let a=20;
+   console.log(a); 
+  }
+  
+
+  ->const=const statement values can be assigned once and they cannot be reassigned. The scope of const statement works similar to let statements.
+
+  const a=10;
+
+  eg:- const VAL =10;
+  console.log(VAL);
+
+
+  3)Datatypes in javascript:-
+  ->String	=represents sequence of characters e.g. "hello"
+  ->Number=	represents numeric values e.g. 100
+  ->Boolean=	represents boolean value either false or true
+  ->Undefined	=represents undefined value
+  ->Null=	represents null i.e. no value at all
+  ->Object=	represents instance through which we can access members
+  ->Array=represents group of similar values
+  ->RegExp=represents regular expression
