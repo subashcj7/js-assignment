@@ -1,4 +1,4 @@
-//1)Js code which takes input form the user and logs into console
+//1)Js code which takes input form the user and logs into console:-
 
 let val=window.prompt("Enter your choice");
 alert("your choice is"+ val)
